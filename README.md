@@ -1,0 +1,3 @@
+# LAB 1: OUTPUT STREAMS
+
+Write a program that behaves like a character generator protocol that defines a server which sends out ASCII text. The only difference here is that you send ASCII text to a file rather than onto a network connection. The most popular variation of this protocol sends 72-character lines containing printable ASCII characters. (The printable ASCII characters are those from 33 to 126 that excluse the various whitespace and control characters.) The first line contains characters 33 through 104 sorted. The second line contains characters 34 through 105. So on and so forth. Each line is terminated with a carriage return (ASCII 13) and a linefeed (ASCII 10).
